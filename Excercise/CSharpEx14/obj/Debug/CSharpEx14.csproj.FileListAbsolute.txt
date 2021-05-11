@@ -1,0 +1,7 @@
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx14\bin\Debug\CSharpEx14.exe.config
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx14\bin\Debug\CSharpEx14.exe
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx14\bin\Debug\CSharpEx14.pdb
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx14\obj\Debug\CSharpEx14.csprojAssemblyReference.cache
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx14\obj\Debug\CSharpEx14.csproj.CoreCompileInputs.cache
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx14\obj\Debug\CSharpEx14.exe
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx14\obj\Debug\CSharpEx14.pdb

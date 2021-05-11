@@ -1,0 +1,41 @@
+@model IQueryable<Person>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Party!</title>
+    </head>
+    <body>
+        <div>
+            <a asp-action="Create"> Add Person </a>
+        </div>
+        <div>
+            <a asp-action="Update"> Update Person </a>
+        </div>
+        <div>
+            <form action="/" method="post">
+                Search By First Name
+                <input type="text" name="name" id="Search" />
+                <input type="submit" value="Search" name="submit" id="submit" />
+            </form>
+            <div>
+                This is the names
+            </div>
+            <div>
+                @foreach (Person name in Model)
+                {
+                    <h1>First Name: @name.Name</h1>
+                    <br>
+                    <h3>Father: @name.FatherName</h3>
+                    <br>
+                    <h3>Mother: @name.MotherName</h3>
+                    <br>
+                    <h3>Last Name: @name.LastName</h3>
+                    <br>
+                }
+            </div>
+
+        </div>
+    </body>
+</html>

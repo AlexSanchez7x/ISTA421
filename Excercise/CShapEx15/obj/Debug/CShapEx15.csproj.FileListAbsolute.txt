@@ -1,0 +1,7 @@
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CShapEx15\bin\Debug\CShapEx15.exe.config
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CShapEx15\bin\Debug\CShapEx15.exe
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CShapEx15\bin\Debug\CShapEx15.pdb
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CShapEx15\obj\Debug\CShapEx15.csprojAssemblyReference.cache
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CShapEx15\obj\Debug\CShapEx15.csproj.CoreCompileInputs.cache
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CShapEx15\obj\Debug\CShapEx15.exe
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CShapEx15\obj\Debug\CShapEx15.pdb

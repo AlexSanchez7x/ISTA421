@@ -1,0 +1,11 @@
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx13\bin\Debug\CSharpEx13.exe.config
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx13\bin\Debug\CSharpEx13.exe
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx13\bin\Debug\CSharpEx13.pdb
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx13\bin\Debug\LumenWorks.Framework.IO.dll
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx13\bin\Debug\LumenWorks.Framework.IO.pdb
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx13\bin\Debug\LumenWorks.Framework.IO.xml
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx13\obj\Debug\CSharpEx13.csprojAssemblyReference.cache
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx13\obj\Debug\CSharpEx13.csproj.CoreCompileInputs.cache
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx13\obj\Debug\CSharpEx13.csproj.CopyComplete
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx13\obj\Debug\CSharpEx13.exe
+C:\Users\Okami\MSSA2021\ISTA421\Excercise\CSharpEx13\obj\Debug\CSharpEx13.pdb
