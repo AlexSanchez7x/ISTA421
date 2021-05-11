@@ -1,0 +1,39 @@
+1. What are the two scenarios in which you can use PLINQ to speed up operations? Why does using PLINQ in these scenarios speed up processing?
+
+when you need to iterrate through a collection to retrieve elements from the collection. they can be sped up because they are processed by a seperate thread
+I/o bound issue
+cpu bound issues
+
+2. How doesAsParallel qualify as an extension method? First, explain what an extension method is and how you definene entension methods, and them explain why AsParallel qualifies as an extension method.
+
+Extension methods enable you to "add" methods to existing types without creating a new derived type, recompiling, or otherwise modifying the original type.
+
+
+3. How do you cancel a PLINQ query before it finishes? Be specific with respect to the variables and methods used for the cancellation operation, and how the variables abd methods are used.
+
+You specify a CancellationToken object from a CancellationTokenSource and use
+the WithCancellation extension method of the ParallelQuery.
+
+4. Why is it important to synchronize concurrent access to a server? Give an example of a specific condition that will cause an error in your application if concurrent access is not synchronized.
+
+because you dont want data worked at the same time
+
+5. What does the lock statement do?
+
+
+
+6. This is not in the book. Define mutex, define semaphore, and explain the difference between them.
+
+
+
+7. What does it mean to say that some collection classes are not thread safe? Explain how not being thread safe may lead one of these collection classes to produce a malfunction in the program.
+
+they can be tampered with simultaneously because there are no locks
+
+8. Explain how thread safe collection classes are made thread safe.
+
+
+
+9. Why are thread safe classes slower than non-thread safe classes? Be specific.
+
+becuase its all sequential and can't be accesssed parallel. they are locked

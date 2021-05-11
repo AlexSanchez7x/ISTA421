@@ -1,0 +1,7 @@
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CSahrpQuiz22\bin\Debug\CSahrpQuiz22.exe.config
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CSahrpQuiz22\bin\Debug\CSahrpQuiz22.exe
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CSahrpQuiz22\bin\Debug\CSahrpQuiz22.pdb
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CSahrpQuiz22\obj\Debug\CSahrpQuiz22.csprojAssemblyReference.cache
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CSahrpQuiz22\obj\Debug\CSahrpQuiz22.csproj.CoreCompileInputs.cache
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CSahrpQuiz22\obj\Debug\CSahrpQuiz22.exe
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CSahrpQuiz22\obj\Debug\CSahrpQuiz22.pdb

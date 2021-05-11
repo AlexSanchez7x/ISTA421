@@ -1,0 +1,43 @@
+1. For chapter 8 of the ASP.NET Core 3 book, what are the three requirements as the author describes them?
+
+
+
+2. When adding new routes in Startup.cs, in what order should you add the new routes? Why?
+
+It is important that you add the new route before the call to the MapDefaultControllerRoute method. The routing system processes routes in the order they are listed, and I need the new route to take precedence over the existing one.
+
+3. Does ASP.NET Core 3 handle outgoing HTTP requests as well as incoming requests? If so, what is one reason that this is important?
+
+yes
+By using the routing system both to handle incoming requests and to generate outgoing URLs, I can ensure that all the URLs in the application are consistent
+
+4. What is a view component? Why do you use view components?
+
+A view component is a C# class that provides a small amount of reusable application logic with the ability to select and display Razor partial views.
+
+5. When you use a view component in a view, how is the view component referenced, and what nameing convention do you use?
+
+
+
+6. When ASP.NET Core 3 needs to create a instance of a component, how does it know what value to give the new instance?
+
+with dependency injection
+
+7. How do ASP.NET Core 3 components get information about a user's current HTTP request? Why would it be important for the component to get this information?
+
+
+
+8. What does the PathAndQuery extension method do with an incoming HTTP request? What does the method do with the return value? What is the return value?
+
+The PathAndQuery extension method operates on the HttpRequest class, which ASP.NET Core uses to describe an HTTP request. The extension method generates a URL that the browser will be returned to after the cart has been updated, taking into
+account the query string, if there is one.
+
+9. What is session state?
+
+Session is a feature in ASP.NET Core that enables us to save/store the user data. Session stores the data in the dictionary on the Server and SessionId is used as a key.
+
+10. What three types does a session state store? Suppose you want to store data that has a type that session state does not store, is it possible to do so? If so, how do you do it?
+
+int, string, byte
+you need to add an extension methodsto the session interface
+

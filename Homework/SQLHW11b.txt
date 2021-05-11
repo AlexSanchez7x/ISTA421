@@ -1,0 +1,73 @@
+1. What is dynamic SQL?
+
+	It lets you construct a batch of T-SQL code as a character string and then execute that batch.
+
+2. In executing dynamic SQL, what are the differences between using the EXEC command and the sp executesp stored procedure?
+
+	The EXEC command accepts a character string in parentheses as input and executes the batch of code within the character string. EXEC supports both regular and Unicode character strings as input
+	
+	
+
+3. What is a SQL injection attack? Give an example of an attack.
+
+	SQL Injection is a web vulnerability caused by mistakes made by programmers. It allows an attacker to send commands to the database that the website or web application communicates with. 
+	
+	someone hacks your website
+
+4. How do you execute the EXEC command? Write a complete example using the TSQLV4 database.
+
+
+
+5. Describe the use of input parameters and output parameters for the sp executesql stored procedure.
+
+
+
+6. What are the three kinds of routines that T-SQL recognizes?
+
+	user-defined functions, stored procedures, and triggers
+
+7. What is the difference between a stored procedure, a user defined function, and a trigger?
+
+	The purpose of a user-defined function (UDF) is to encapsulate logic that calculates something, possibly based on input parameters, and return a result.
+	transforms input to output but no side effects
+
+	A trigger is a special kind of stored procedure—one that cannot be executed explicitly. Instead, it’s attached to an event. Whenever the event takes place, the trigger fires and the trigger’s code runs
+	automated stored procedure and always cause side effects but can't be executed its automated
+	
+	stored procedure is a block of code
+
+8. What is the primary function of a UDF? This is not specifically stated in the book but is clear from the context of the discussion n the book.
+
+	The purpose of a user-defined function (UDF) is to encapsulate logic that calculates something, possibly based on input parameters, and return a result
+
+9. (Not in book.) What are side effects, and why are they dangerous?
+
+	it makes cheanges in the environment that the function lives in. 
+
+10. What is the principle distinction between a UDF and a stored procedure?
+
+	Procedure allows select as well as DML statement in it whereas function allows only select statement in it. Functions can be called from procedure whereas procedures cannot be called from function
+	
+	UDF can be used in the SQL statements anywhere in the WHERE/HAVING/SELECT section where as Stored procedures cannot be
+
+11. Given that you cannot execute a trigger explicitly, what is the advantage of using triggers?
+
+	
+
+12. In using error handling in T-SQL, can you mimic a finally block? If so, how?
+
+no you can't. but you can build in that functionality.
+
+13. Write a user defined function that returns a Booleans as to whether a customer may purchase alcohol as of the instant that the function runs.
+
+
+
+14. Write a trigger that places a customer in the OFF LIMITS table if he attempt to purchase alcohol when he is underage.
+
+
+
+15. Write a stored procedure that deletes customers from the OFF LIMITS table when they have reached their 21st birthday.
+
+
+
+

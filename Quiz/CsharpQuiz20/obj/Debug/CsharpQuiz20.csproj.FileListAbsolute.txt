@@ -1,0 +1,7 @@
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CsharpQuiz20\obj\Debug\CsharpQuiz20.csprojAssemblyReference.cache
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CsharpQuiz20\obj\Debug\CsharpQuiz20.csproj.CoreCompileInputs.cache
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CsharpQuiz20\bin\Debug\CsharpQuiz20.exe.config
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CsharpQuiz20\bin\Debug\CsharpQuiz20.exe
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CsharpQuiz20\bin\Debug\CsharpQuiz20.pdb
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CsharpQuiz20\obj\Debug\CsharpQuiz20.exe
+C:\Users\Okami\MSSA2021\ISTA421\Quiz\CsharpQuiz20\obj\Debug\CsharpQuiz20.pdb

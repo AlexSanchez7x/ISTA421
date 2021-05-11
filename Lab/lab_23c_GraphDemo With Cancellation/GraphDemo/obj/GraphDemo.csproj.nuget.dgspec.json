@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Okami\\MSSA2021\\ISTA421\\Lab\\lab_23c_GraphDemo With Cancellation\\GraphDemo\\GraphDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Okami\\MSSA2021\\ISTA421\\Lab\\lab_23c_GraphDemo With Cancellation\\GraphDemo\\GraphDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Okami\\MSSA2021\\ISTA421\\Lab\\lab_23c_GraphDemo With Cancellation\\GraphDemo\\GraphDemo.csproj",
+        "projectName": "GraphDemo",
+        "projectPath": "C:\\Users\\Okami\\MSSA2021\\ISTA421\\Lab\\lab_23c_GraphDemo With Cancellation\\GraphDemo\\GraphDemo.csproj",
+        "packagesPath": "C:\\Users\\Okami\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Okami\\MSSA2021\\ISTA421\\Lab\\lab_23c_GraphDemo With Cancellation\\GraphDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Okami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.18362"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.18362": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.18362": {
+          "dependencies": {
+            "Microsoft.ApplicationInsights": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.ApplicationInsights.PersistenceChannel": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.ApplicationInsights.WindowsApps": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

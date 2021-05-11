@@ -1,0 +1,71 @@
+1. What is the purpose of transactions? Why do we use transactions in SQL scripts?
+
+
+
+A transaction is a unit of work that might include multiple activities that query and modify data and that can also change the data definition.
+
+2. Briefly describe each of the ACID properties.
+
+(Atomicity) A transaction is an atomic unit of work. Either all changes in the transaction take
+place or none do.
+
+(Consistency) The term consistency refers to the state of the data that the relational database
+management system (RDBMS) gives you access to as concurrent transactions modify and
+query it.
+
+(Isolation) Isolation ensures that transactions access only consistent data. You control what
+consistency means to your transactions through a mechanism called isolation levels.
+
+(Durability) Data changes are always written to the database’s transaction log on disk before
+they are written to the data portion of the database on disk. After the commit instruction is
+recorded in the transaction log on disk, the transaction is considered durable even if the change
+hasn’t yet made it to the data portion on disk
+
+3. What do we mean when we talk about the granularity of locks?
+
+Lock granularity specifies which resource is locked by a single lock attempt.
+
+4. What do we mean when we talk about the modes of locks?
+
+whether its exclusive or shared
+
+5. In your own words, describe blocking, and give an example.
+
+blocking occurs when one session holds a lock on a specific resource and a second SPID attempts to acquire a conflicting lock type on the same resource. 
+
+6. What are the properties of locks? That is, list the column name and column type of the fields in sys.dm tran locks.
+
+
+
+7. What are the properties of sessions? That is, list the column name and column type of the fields in sys.dm exec connections.
+
+
+
+8. What are the requests of sessions? That is, list the column name and column type of the fields in sys.dm exec requests.
+
+SELECT -- use * to explore
+session_id AS sid,
+login_time,
+host_name,
+program_name,
+login_name,
+nt_user_name,
+last_request_start_time,
+last_request_end_time
+FROM sys.dm_exec_sessions
+WHERE session_id IN(52, 53);
+
+9. What is an isolation level? Give an example of the operation of an isolation level.
+
+Isolation levels determine the level of consistency you get when you interact with data.
+READ UN-COMMITTED
+
+10. (Not in the book.) What do we mean when we say that an object is serializable?
+
+A serializable execution is defined to be an execution of the operations of concurrently executing SQL-transactions that produces the same effect as some serial execution of those same SQL-transactions.
+
+11. What is an deadlock? Give an example of a deadlock?
+
+
+A deadlock is a situation in which two or more sessions block each other. An example of a two-session deadlock is when session A blocks session B and session B blocks session A.
+

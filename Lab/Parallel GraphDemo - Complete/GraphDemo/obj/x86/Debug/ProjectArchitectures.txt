@@ -1,0 +1,1 @@
+C:\Users\Okami\MSSA2021\ISTA421\Lab\Parallel GraphDemo - Complete\GraphDemo\GraphDemo.csproj;x86

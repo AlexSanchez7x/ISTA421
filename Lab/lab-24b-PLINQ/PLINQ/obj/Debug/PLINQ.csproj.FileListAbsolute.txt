@@ -1,0 +1,7 @@
+C:\Users\Okami\MSSA2021\ISTA421\Lab\PLINQ\PLINQ\bin\Debug\PLINQ.exe.config
+C:\Users\Okami\MSSA2021\ISTA421\Lab\PLINQ\PLINQ\bin\Debug\PLINQ.exe
+C:\Users\Okami\MSSA2021\ISTA421\Lab\PLINQ\PLINQ\bin\Debug\PLINQ.pdb
+C:\Users\Okami\MSSA2021\ISTA421\Lab\PLINQ\PLINQ\obj\Debug\PLINQ.csprojAssemblyReference.cache
+C:\Users\Okami\MSSA2021\ISTA421\Lab\PLINQ\PLINQ\obj\Debug\PLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Okami\MSSA2021\ISTA421\Lab\PLINQ\PLINQ\obj\Debug\PLINQ.exe
+C:\Users\Okami\MSSA2021\ISTA421\Lab\PLINQ\PLINQ\obj\Debug\PLINQ.pdb

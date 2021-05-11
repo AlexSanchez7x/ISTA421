@@ -1,0 +1,41 @@
+1. What is an enumerable collection?
+
+A collection that implements the System.Collections.IEnumerable interface.
+
+2. What properties and methods does the IEnumerable interface contain?
+
+The IEnumerable interface contains a single method called GetEnumerator:
+
+3. What values does the MoveNext() method return? What does it do?
+
+bool
+You call the MoveNext method to move the pointer down to the next (first) item in the list
+
+5. What values does the Reset() method return? What does it do?
+
+the Reset method is a void method. The Reset method changes the state of a anualResetEventSlim object back to unsignaled.
+
+6. Are IEnumerable and IEnumerator type safe? Why or why not? If not, how do you implement type safety?
+
+IEnumerator interface exhibits non–type-safe behavior.
+The generic IEnumerator<T> interface, which has a Current property that returns a T instead.
+
+7. Why don't recursive methods retain state when used with data structures like binary trees?
+
+Recursive algorithms, such as those used when walking a binary tree, do not
+lend themselves to maintaining state information between method calls in an
+easily accessible manner
+
+8. How do you define an enumerator?
+
+
+
+9. What is an iterator?
+
+An iterator is a method in C# which is used in an array or in collections like the list, etc. to retrieve elements one by one. Or in other words, we can say that an iterator is used to perform an iteration over the collections.
+
+10. What does yield do?
+
+
+The yield keyword indicates the value that should be returned by each iteration
+

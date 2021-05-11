@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventLabComplete", "EventLabComplete.csproj", "{8479B5BD-28CE-4CAE-8EB5-4394735D3028}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8479B5BD-28CE-4CAE-8EB5-4394735D3028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8479B5BD-28CE-4CAE-8EB5-4394735D3028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8479B5BD-28CE-4CAE-8EB5-4394735D3028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8479B5BD-28CE-4CAE-8EB5-4394735D3028}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54957BF7-2B10-4AF3-8F50-AAC7124AC3F1}
+	EndGlobalSection
+EndGlobal

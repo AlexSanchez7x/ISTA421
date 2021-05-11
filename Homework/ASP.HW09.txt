@@ -1,0 +1,54 @@
+1. The text contains the folowing: 
+
+	I defined a Cart model class in the previous chapter and demonstrated how it can be stored using the session feature, allowing the user to build up a set of products for purchase. The responsibility for managing the persistence of the Cart class fell to the Cart Razor Page, which has to deal with getting and storing Cart objects as session data. The problem with this approach is that I will have to duplicate the code that obtains and stores Cart objects in any other Razor Page or controller that uses them.
+
+In your own words, describe the "problem" the author identifies and explain why the proposed solution is not satisfactory.
+
+
+
+
+
+2. What are services, and how do they work.
+
+provides access to other things
+
+
+3. (Not in book) The author states, The static GetCart method is a factory for creating SessionCart objects and providing them with an ISession object so they can store themselves." What does he mean by calling the GetCart method a factory?
+
+it prouces more objects
+
+
+4. What does the AddScoped method do?
+
+The AddScoped method specifies that the same object should be used to satisfy related requests for Cart instances. How requests are related can be configured, but by default, it means that any Cart required by components handling the same HTTPrequest will receive the same object.
+
+5. How is an HTML form element with a tag handler of asp-page-handler programmed to execute the functionality exposed by the form?
+
+
+
+6. What does the BindNever attribute do? Why is it useful?
+
+“BindNever” attribute is used to tell Model binding, which does not bind any value to this parameter. This attribute tells to the Model binder to not to bind the value with the parameter.
+
+7. What does the tag helper <asp-for> do?
+
+
+
+8. Using Entity Framework, how do you add a new model to your database?
+
+Entity Framework Core to take a new snapshot of the application data model, work out how it differs from the previous database version, and generate a new migration called Orders. The new migration will be applied automatically when the application starts because the SeedData calls the Migrate method provided by Entity Framework Core.
+
+9. What, specifically, does this command do: dotnet ef migrations add Model?
+
+generates new Models
+
+10. How does Entity Framework understand to load data that is contained in multiple tables? For example, suppose you want to load data from both Orders and Order.Details. What LINQ methods accomplish this?
+
+the join extension method
+
+11. Why do we validate data on the client side? Why do we validate data on the server side? What are the advantages and disadvantages of clinet side validation and server side validation?
+
+
+The data submitted by the user is sent to the server before it is validated, which is known as server-side validation and for which S .久 Core has excellent support. he problem with server-side validation is that the user isn’t told about errors until after the data has been sent to the server and processed and the result page has been generated—something that can take a few seconds on a busy server. For this reason, server-side validation is usually complemented by client-side validation,
+
+

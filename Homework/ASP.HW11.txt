@@ -1,0 +1,43 @@
+1. How are user authentication and authorization handled in ASP.NET?
+
+
+
+2. What ASP.NET package supports the database functionality backing the identity system?
+
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore--version 3.1.0
+
+3. In our Sports Store application, what is the connection string that allows access to our identity database?
+
+"IdentityConnection": "Server=(localdb)\\MSSQLLocalDB;Database=Identity;MultipleActiveResultSets=true"
+
+4. What methods are required to configure the middleware that supports user authentication and authourization?
+
+ConfigureServices method
+
+5. When you have multiple databases supporting one ASP.NET application, how do you ensure that specific components use the correct database?
+
+you use the -context argument specify the name of the context class associated with the database that I want to work with, which is AppIdentityDbContext.
+
+6. (not in book) In what namespace is the UserManager<T> class located? What is the purpose of the class? What interface(s) does the class require?
+
+Microsoft.AspNetCore.Identity
+Provides the APIs for managing user in a persistence store.
+
+7. How are authentication credentials submitted to the application server? What services does the login manager use in submitting the authentication credentials?
+
+
+
+8. How does an ASP.NET application determine the environment in which it is running?
+
+
+
+9. How do you define configuration settings for different environments, such as development or production?
+
+
+
+10. (not in book) What is Docker? What is a container?
+
+he Docker platform uses the Docker engine to quickly build and package apps as Docker images. These images are written in the Dockerfile format to be deployed and run in a layered container.
+
+
+Containers provide a lightweight way to isolate your application from the rest of the host system, sharing just the kernel, and using resources given to your application.

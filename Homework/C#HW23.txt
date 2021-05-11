@@ -1,0 +1,56 @@
+1 List two reasons for multitasking, and explain the rationale for them.
+
+	To improve responsiveness: it does not make sense to have a program burn CPU cycles waiting for the operation to complete when the program could be doing something more useful instead (such as responding to user input). “Improving response time by performing asynchronous operations,” discusses these features in more detail.
+
+	To improve scalability: If an operation is CPU bound, you can improve scalability by making efficient use of the processing resources available and using these resources to reduce the time required to execute the operation. A developer can determine which operations include tasks that can be performed in parallel and arrange for these elements to be run concurrently.
+
+2 Explain Moore's law. What does Moore's law have to do with multitasking?
+
+	Moore’s Law, which states that the number of transistors that can be placed inexpensively on an integrated circuit will increase exponentially, doubling approximately every two years.	
+	
+	
+
+3 In UWP, what namespace is used as the container for the multitasking methods?
+
+SytemThreading.thread	
+
+4 What is the difference between tasks and threads? Explain.
+
+	a task is something you want done
+	The Task class provides a powerful abstraction for threading with which you can easily distinguish between the degree of parallelization in an application (the tasks) and the units of parallelization (the threads
+
+	a thread is that task being accomplished. a thread of executions
+	The Thread class is used for creating and manipulating a thread in Windows. A Task represents some asynchronous operation and is part of the Task Parallel Library, a set of APIs for running tasks asynchronously and in parallel.
+
+	The task can return a result. There is no direct mechanism to return the result from a thread.
+
+5 What is the ThreadPool?
+
+	A queue of tasks
+	The ThreadPool class implements a number of optimizations and uses a work-stealing algorithm to ensure that threads are scheduled efficiently.
+
+6 What parameters does the Task() constructor take?
+
+An Action delegate
+
+7 How do you start a thread?
+
+by calling the start and run methods
+
+8 What is the difference between the Start() and Run() methods?
+
+	The Start method is overloaded, and you can optionally specify a TaskCreationOptions object to provide hints about how to schedule and run the task.
+	start(); adds it to the stuff to be done
+
+	The Run method takes an Action delegate specifying the operation to perform (like the Task constructor) but starts the task running immediately. It returns a reference to the Task object.
+	run(); actually executes it
+
+9 What is the difference between creating independent tasks with Tasks and paralleliztion with Parallel? Explain.
+
+	
+
+10 Explain how manual cancellation works using a cancellation token.
+
+
+	
+

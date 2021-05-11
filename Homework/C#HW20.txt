@@ -1,0 +1,55 @@
+1. What is a delegate? Explain delegates in terms of pointers and reference types.
+
+A delegate is a type
+But can also be an object that references a method
+ 
+2. How do you declare a delegate? Include a discussion of types, return values, names, and parameters.
+
+the same way you assign a variable to a data type.
+
+3. How do you create instances of delegates and assign values to the instance? What are the values?
+
+Processor p = new Processor();
+delegate ... performCalculationDelegate ...;
+performCalculationDelegate = p.performCalculation;
+
+4. How do you invoke a method that has been added to a delegate?
+
+Having stored a reference to the method in the delegate, the application can subsequently invoke the method through the delegate
+
+5. What is an event? Why do we have events?
+
+You use Events to define and trap significant actions and arrange for a delegate to be called to handle the situation.
+
+6. How do you declare events?
+
+You declare an event in a class intended to act as an event source.
+You declare an event similarly to how you declare a field. However, because events are intended to be used with delegates, the type of an event must be a delegate, and you must prefix the declaration with the event keyword
+event delegateTypeName eventName
+
+7. How do delegates recognize event subscriptions? How do you unsubscribe an event from a delegate?
+
+You subscribe to an event by using this += operator.
+you use the –= operator to detach a delegate from an event.
+
+
+8. How do you raise an event? How do you declare code that raises an event?
+
+You can raise an event by calling it like a method. When you raise an event, all the attached delegates are called in sequence.
+
+
+{
+public delegate void StopMachineryDelegate();
+public event StopMachineryDelegate MachineOverheating;
+...
+private void Notify()
+{
+if (this.MachineOverheating != null)
+{
+this.MachineOverheating();
+}
+
+
+9. Explain with specificity what happens when an event fires and that event has been attached to a delegate.
+
+Events enable a class or object to notify other classes or objects when something of interest occurs. The class that raises the event is called the publisher and the classes that handle the event are called subscribers.

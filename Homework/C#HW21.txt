@@ -1,0 +1,64 @@
+1. What is the difference in the purposes of SQL and LINQ? In other words, why do we need two different query languages? Does LINQ replace SQL? Does SQL make LINQ unnecesary?
+
+	SQL provides a high-level description of the data that the developer wants to retrieve but does not indicate exactly how the database management system should retrieve this data. These details are controlled by the database management system itself.
+
+	Linq is for in memory data
+	sql is for data in a network(external data)
+
+	LINQ provides syntax and semantics very reminiscent of SQL and with many of the same advantages. You can change the underlying structure of the data being queried without needing to change the code that actually performs the queries.
+
+2. What is the one essential requirement for the datastructures used with LINQ? Why is this requirement important?
+
+	LINQ requires the data to be stored in a data structure that implements the IEnumerable or IEnumerable<T> interface,
+
+3. Where does the LINQ Select() method live?
+
+	within the Enemerable. extension methods
+
+4. (Select) Explain, token by token, each token in this line of code: 
+
+	IEnumerable<string> customerFirstNames = customers.Select(cust => cust.FirstName);
+
+	this code selects the row with the customers first names
+
+5. (Filter) Explain, token by token, each token in this line of code:
+
+	IEnumerable<string> usCompanies = addresses.Where(addr =>
+	String.Equals(addr.Country, "United States")).Select(usComp => usComp.CompanyName);
+
+	this code filters the usCompanies rows where the value is equal to "United States" and the company names that are attached to "United States"
+
+6. (OrderBy) Explain, token by token, each token in this line of code:
+
+	IEnumerable<string> companyNames = addresses.OrderBy(addr => addr.CompanyName).Select(comp => comp.CompanyName);
+
+	This code is  ordering the results of the query by companyNames
+
+7. (Group) Explain, token by token, each token in this line of code:
+
+	var companiesGroupedByCountry = addresses.GroupBy(addrs => addrs.Country);
+
+	This code is grouping the querry results by country
+
+8. (Distinct) Explain, token by token, each token in this line of code: 
+
+	int numberOfCountries = addresses.Select(addr => addr.Country).Distinct().Count();
+
+	This code is looking for distinct instances of countries in the query results 
+
+9. (Join) Explain, token by token, each token in this line of code:
+
+	var companiesAndCustomers =
+		customers.Select(c =>
+			new { c.FirstName, c.LastName, c.CompanyName }).Join(addresses, custs =>
+			custs.CompanyName, addrs => addrs.CompanyName, (custs, addrs) =>
+			new {custs.FirstName, custs.LastName, addrs.Country });
+			
+			this code queries from 2 different tables joining them on a common row
+		
+		
+10. Explain the difference between a deferred collection and a static, cached collection.
+
+
+the static cache makes a copy of the right side before it evaluates the expression
+

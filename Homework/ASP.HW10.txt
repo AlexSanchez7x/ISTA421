@@ -1,0 +1,49 @@
+1. What is Blazor?
+
+	Blazor is a framework for building interactive client-side web UI with .NET:
+	-Create rich interactive UIs using C# instead of JavaScript.
+	-Share server-side and client-side app logic written in .NET.
+	-Render the UI as HTML and CSS for wide browser support, including mobile browsers.
+	-Integrate with modern hosting platforms, such as Docker.
+
+2. What do the methods AddServerSideBlazor() and MapBlazorHub() do?
+
+	The AddServerSideBlazor method creates the services that Blazor uses, and the MapBlazorHub method registers the Blazor middleware components. The final addition is to finesse the routing system to ensure that Blazor works seamlessly with the rest of the application.
+
+3. Where are Blazor files conventionally located?
+
+	The conventional location for Blazor files is within the Pages folder, but Blazor files can be defined anywhere in the project.
+
+4. What is the purpose of the Routed.razor file?
+
+	
+
+5. (Not in book) What is the purpose of the <NavLink> element, and what does it do?
+
+	A NavLink component behaves like an <a> element, except it toggles an active CSS class based on whether its href matches the current URL
+
+6. What is the purpose of an @code f ... g block? Where are they located and what is their purpose?
+
+	The @code section in this component defines four properties that are decorated with the Parameter attribute, which means the values will be provided at runtime by the parent component,
+
+7. How can a single component be configured to present two different sets of data without the need to duplicate code and content?
+
+	
+
+8. What is CRUD? What are the equivalent SQL statements?
+
+	CRUD = create, read, update, and delete items
+
+9. Does Blazor use the same approach to validation as the rest of ASP.NET Core? If not, how is Blazor different?
+
+Blazor uses the same approach to validation as the rest of ASP.NET Core but, applies it a different way to deal with the more interactive nature of Razor Components.
+
+10. What is the purpose of the Inject attribute?
+
+	the Inject attribute is used to declare that it requires an implementation of the an interface
+
+11. What is the NavigationManager class? What does it do?
+
+
+	The NavigationManager class is used to programmatically navigate between components without triggering a new HTTP request.
+

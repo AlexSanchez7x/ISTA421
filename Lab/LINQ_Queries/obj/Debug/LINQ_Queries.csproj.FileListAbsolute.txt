@@ -1,0 +1,7 @@
+C:\Users\Okami\MSSA2021\ISTA421\Lab\LINQ_Queries\obj\Debug\LINQ_Queries.csprojAssemblyReference.cache
+C:\Users\Okami\MSSA2021\ISTA421\Lab\LINQ_Queries\obj\Debug\LINQ_Queries.csproj.CoreCompileInputs.cache
+C:\Users\Okami\MSSA2021\ISTA421\Lab\LINQ_Queries\bin\Debug\LINQ_Queries.exe.config
+C:\Users\Okami\MSSA2021\ISTA421\Lab\LINQ_Queries\bin\Debug\LINQ_Queries.exe
+C:\Users\Okami\MSSA2021\ISTA421\Lab\LINQ_Queries\bin\Debug\LINQ_Queries.pdb
+C:\Users\Okami\MSSA2021\ISTA421\Lab\LINQ_Queries\obj\Debug\LINQ_Queries.exe
+C:\Users\Okami\MSSA2021\ISTA421\Lab\LINQ_Queries\obj\Debug\LINQ_Queries.pdb
